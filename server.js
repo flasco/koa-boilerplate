@@ -1,6 +1,7 @@
 const app = require('./src');
 
 const PORT = 3000;
+
 app.listen(PORT, function (err) {
   console.log('Node app is running on port:', PORT);
 
